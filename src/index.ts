@@ -8,7 +8,11 @@ const test = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].map((tagName) => ({
   tagName,
 }));
 
-const headingAnchor: Plugin<never[], Node<Element>, Node<Element>> = () => {
+const rehypeHeadingAnchor: Plugin<
+  never[],
+  Node<Element>,
+  Node<Element>
+> = () => {
   return (ast) => {
     visit(ast, test, (node, index, parent) => {
       if (index === null || parent === null) {
@@ -39,4 +43,4 @@ const headingAnchor: Plugin<never[], Node<Element>, Node<Element>> = () => {
   };
 };
 
-export default headingAnchor;
+export default rehypeHeadingAnchor;
