@@ -1,8 +1,12 @@
 # rehype-heading-anchor
 
+![CI](https://github.com/kazushisan/rehype-heading-anchor/actions/workflows/ci.yml/badge.svg) [![npm version](https://badge.fury.io/js/rehype-heading-anchor.svg)](https://badge.fury.io/js/rehype-heading-anchor)
+
 rehype plugin to add anchor tags to your headings
 
-## install
+## Install
+
+This package is ESM only.
 
 ```
 npm install
