@@ -1,6 +1,6 @@
 {
   "name": "rehype-heading-anchor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "rehype plugin to add anchor tags to headings",
   "main": "dist/index.js",
   "type": "module",
