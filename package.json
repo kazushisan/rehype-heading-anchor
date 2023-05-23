@@ -11,7 +11,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext .ts,.js,.cjs .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "npm run build"
   },
   "files": ["dist"],
   "author": "Kazushi Konosu <kazushi@konosu.me>",
