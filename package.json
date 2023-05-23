@@ -4,6 +4,10 @@
   "description": "rehype plugin to add anchor tags to headings",
   "main": "dist/index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazushisan/rehype-heading-anchor"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext .ts,.js,.cjs .",
