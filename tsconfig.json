@@ -9,5 +9,6 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
     "declaration": true
-  }
+  },
+  "include": ["src/"]
 }
