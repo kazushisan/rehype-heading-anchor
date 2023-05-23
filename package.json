@@ -9,6 +9,7 @@
     "lint": "eslint --ext .ts,.js,.cjs .",
     "test": "vitest run"
   },
+  "files": ["dist"],
   "author": "Kazushi Konosu <kazushi@konosu.me>",
   "license": "MIT",
   "devDependencies": {
